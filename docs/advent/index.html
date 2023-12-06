@@ -1,22 +1,79 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <title>Scratch AG | Marienschule, Bonn | Winter 2023</title>
+  <link rel='stylesheet' href='//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack-subset.css'>
+  <style type="text/css">
+    body {
+      background-color: #000;
+      margin: 0;
+      font-family: Hack, sans-serif;
+      width: 1920px;
+      height: 1080px;
+      color: #fff;
+      overflow: hidden;
+    }
+    #background {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+    main {
+      position: fixed;
+      top: 10%;
+      left: 0;
+      width: 50%;
+      font-size: 2em;
+      text-align: center;
+      color: white;
+      text-shadow: 3px 3px 4px #777;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .cta {
+      background: white;
+      color: #777;
+      font-size: 0.8em;
+      padding: 10px;
+      width: 70%;
+      margin: 0 auto;
+      text-shadow: none;
+    }
+    footer {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      padding: 4px 10px;
+      width: 100%;
+      color: #CCC;
+      font-size: 0.8em;
+      text-shadow: 3px 3px 4px #777;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
-  <a href="IMG_8080.jpg">IMG_8080.jpg</a>
-  <a href="IMG_8081.jpg">IMG_8081.jpg</a>
-  <a href="IMG_8082.jpg">IMG_8082.jpg</a>
-  <a href="IMG_8084.jpg">IMG_8084.jpg</a>
-  <a href="IMG_8085.jpg">IMG_8085.jpg</a>
-  <a href="IMG_8086.jpg">IMG_8086.jpg</a>
-  <a href="IMG_8087.jpg">IMG_8087.jpg</a>
-  <a href="IMG_8088.jpg">IMG_8088.jpg</a>
-  <a href="IMG_8090.jpg">IMG_8090.jpg</a>
-  <a href="IMG_8091.jpg">IMG_8091.jpg</a>
-  <a href="IMG_8092.jpg">IMG_8092.jpg</a>
-  <a href="IMG_8093.jpg">IMG_8093.jpg</a>
-  <a href="IMG_8094.jpg">IMG_8094.jpg</a>
-  <a href="IMG_8095.jpg">IMG_8095.jpg</a>
-  <a href="IMG_8096.jpg">IMG_8096.jpg</a>
+  <img id="background" src="background.jpg" usemap="#image-map">
+
+  <map name="image-map">
+      <area alt="Tethys"   title="Tethys" href="https://scratch.mit.edu/users/Tethys-BN23" coords="505,719,918,710,924,977,516,1038" shape="poly">
+      <area alt="Dione"    title="Dione" href="https://scratch.mit.edu/users/Dione-BN23" coords="963,719,1204,712,1209,931,962,956" shape="poly">
+      <area alt="Rhea"     title="Rhea" href="https://scratch.mit.edu/users/Rhea-BN23" coords="1226,714,1398,717,1409,900,1236,927" shape="poly">
+      <area alt="Hyperion" title="Hyperion" href="https://scratch.mit.edu/users/Hyperion-BN23" coords="1418,721,1533,727,1543,885,1428,894" shape="poly">
+      <area alt="Helene"   title="Helene" href="https://scratch.mit.edu/users/Helene-BN23" coords="1545,724,1652,719,1664,858,1557,880" shape="poly">
+      <area alt="Atlas"    title="Atlas" href="https://scratch.mit.edu/users/Atlas-BN23" coords="1669,724,1676,853,1744,832,1723,717" shape="poly">
+  </map>
+  <main>
+    <h1>Scratch AG<br>Marienschule, Bonn</h1>
+    <p>Winter 2023</p>
+    <p class="cta">Klicke die Zelte oder die Bühne an,<br>um zu den <strong>sechs Projekten</strong> zu gelangen.</p>
+  </main>
+  <footer>&copy; 2023 Dr. Olav Schettler &middot; Pipinstr. 14, 53111 Bonn | <a href="https://scratch.mit.edu/users/BoennscheScratchAG/">scratch.mit.edu</a> | <a href="mailto:info@coldekulturbonn.de?subject=Bönnsche+Scratch-AG">Kontakt</a></footer>
 </body>
 </html>
